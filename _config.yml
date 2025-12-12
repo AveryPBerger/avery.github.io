@@ -1,6 +1,22 @@
 remote_theme: pages-themes/time-machine@v0.2.0
+
 plugins:
   - jekyll-remote-theme
 
-title: Your Portfolio Title
-description: A short description of you or your work
+title: Avery Berger
+description: A developer building full-stack applications, mobile apps, desktop tools, and game projects.
+
+# Optional custom settings
+author: Avery Berger
+
+show_downloads: false
+
+social_links:
+  github: https://github.com/AveryPBerger
+  linkedin: https://www.linkedin.com/in/averyberger/
+  email: averyberger@icloud.com
+
+# Markdown & formatting options
+markdown: kramdown
+kramdown:
+  input: GFM
