@@ -20,10 +20,10 @@ Includes:
 
 <h2>HomeBudget Window App – CuAri Avengers</h2>
 <script src="https://cdn.jsdelivr.net/npm/github-readme-embed/dist/github-readme-embed.min.js"></script>
-<div data-readme="https://github.com/<your-username>/HomeBudget_WindowApp_CuAri_Avengers"></div>
+<div data-readme="https://github.com/<cuongngodev>/HomeBudget_WindowApp_CuAri_Avengers"></div>
 
 🔗 **GitHub Repo:**  
-https://github.com/<your-username>/HomeBudget_WindowApp_CuAri_Avengers  
+https://github.com/<cuongngodev>/HomeBudget_WindowApp_CuAri_Avengers  
 
 
 ---
