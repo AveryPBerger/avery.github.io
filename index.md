@@ -1,1 +1,6 @@
-Check out my [Projects](projects.md) page to see what I've been working on.
+---
+layout: default
+title: Home
+---
+
+Take a look at my [Projects](projects.md) page to explore the applications, tools, and games I’ve developed.

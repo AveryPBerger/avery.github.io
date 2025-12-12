@@ -18,7 +18,6 @@ Includes:
 - Clean UI  
 - Team-built project for course work
 
-<h2>HomeBudget Window App – CuAri Avengers</h2>
 <script src="https://cdn.jsdelivr.net/npm/github-readme-embed/dist/github-readme-embed.min.js"></script>
 <div data-readme="https://github.com/<cuongngodev>/HomeBudget_WindowApp_CuAri_Avengers"></div>
 
@@ -38,8 +37,23 @@ Features:
 - Clean Compose UI
 
 
-<h2>StockUp</h2>
 <div data-readme="https://github.com/AveryPBerger/StockUp"></div>
 
 🔗 **GitHub Repo:**  
 https://github.com/AveryPBerger/StockUp
+
+## 🐉 DnDMasters — D&D Character Creator (Azure DevOps)
+
+A full-stack web application for creating and managing Dungeons & Dragons characters.  
+Built to replace physical character sheets and centralize character data in one place.
+
+🔗 **Azure Repo:**  
+https://dev.azure.com/6245430-first/DndMasters
+
+### Features
+- Create, view, and edit player characters  
+- Track health, abilities, inventory, spells, and death saves  
+- Template shop with pre-built character templates (seeder-driven)  
+- Customizable traits and stats beyond official rules  
+- Campaign support with join-by-ID  
+- Role-based system: Normal User, Admin, Dungeon Master
