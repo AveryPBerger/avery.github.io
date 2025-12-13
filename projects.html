@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avery's Portfolio</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+
+</head>
+    <body>
+        <div class="wrap">
+
+        <div class="nav">
+            <div class="brand">
+            <span>Avery Berger</span>
+            <span class="badge">Projects</span>
+            </div>
+            <div class="navlinks">
+            <a href="./index.html">Home</a>
+            <a href="./projects.html">Projects</a>
+            </div>
+        </div>
+
+        <h2 class="sectionTitle">Featured Projects</h2>
+
+        <div class="projectGrid">
+
+            <article class="project">
+            <div class="projectInner">
+                <div class="media">
+                <img class="media-img contain" alt="HomeBudgeting app" src="./assets/images/HomeBudget.png"/>
+                </div>
+                <div class="content">
+                <h2>🏦 HomeBudget — Windows Desktop Budgeting App</h2>
+                <p class="small">C# / WPF • Team Project</p>
+
+                <div class="meta">
+                    <span class="tag">Desktop</span>
+                    <span class="tag">WPF</span>
+                    <span class="tag">Team</span>
+                </div>
+
+                <p class="small">
+                    A budgeting tool that tracks income and expenses with a clean UI and structured data flow.
+                </p>
+
+                <ul class="clean">
+                    <li>Expense & income tracking</li>
+                    <li>Visualization for budgeting trends</li>
+                    <li>Built collaboratively with version control</li>
+                </ul>
+
+                <div class="btnrow">
+                    <a class="btn" href="https://github.com/cuongngodev/HomeBudget_WindowApp_CuAri_Avengers" target="_blank" rel="noreferrer">Repo →</a>
+                </div>
+                </div>
+            </div>
+            </article>
+
+            <!-- StockUp -->
+            <article class="project">
+            <div class="projectInner">
+                <div class="media">
+                <img src="./assets/images/StockUp.png" alt="Mobile app that displays a list of stocks"/>
+                </div>
+                <div class="content">
+                <h2>📈 StockUp — Mobile Stock Portfolio Simulator</h2>
+                <p class="small">Kotlin • Jetpack Compose • Firebase</p>
+
+                <div class="meta">
+                    <span class="tag">Android</span>
+                    <span class="tag">Compose</span>
+                    <span class="tag">Firebase</span>
+                </div>
+
+                <p class="small">
+                    A mobile app that simulates portfolio management with authentication and cloud-synced state.
+                </p>
+
+                <ul class="clean">
+                    <li>Firebase auth + real-time data sync</li>
+                    <li>Buy/sell logic and holdings updates</li>
+                    <li>State-driven UI with Compose</li>
+                </ul>
+
+                <div class="btnrow">
+                    <a class="btn" href="https://github.com/AveryPBerger/StockUp" target="_blank" rel="noreferrer">Repo →</a>
+                </div>
+                </div>
+            </div>
+            </article>
+
+            <!-- DnDMasters -->
+            <article class="project">
+            <div class="projectInner">
+                <div class="media">
+                <img class="media-img contain" alt="Dnd home screen" src="./assets/images/dndMasters.png"/>
+                </div>
+                <div class="content">
+                <h2>🐉 DnDMasters — D&amp;D Character Management Platform</h2>
+                <p class="small">Full-Stack • Azure DevOps</p>
+
+                <div class="meta">
+                    <span class="tag">Full-stack</span>
+                    <span class="tag">Domain modeling</span>
+                    <span class="tag">RBAC</span>
+                </div>
+
+                <p class="small">
+                    A full-stack web app for creating and managing D&amp;D characters with templates, campaigns, and role-based access.
+                </p>
+
+                <ul class="clean">
+                    <li>Character creation/editing with complex data models</li>
+                    <li>Template shop (seeded templates)</li>
+                    <li>Campaign support (join-by-ID)</li>
+                    <li>Roles: Player, Admin, Dungeon Master</li>
+                </ul>
+
+                <div class="btnrow">
+                    <a class="btn" href="https://dev.azure.com/6245430-first/DndMasters" target="_blank" rel="noreferrer">Repo →</a>
+                </div>
+                </div>
+            </div>
+            </article>
+
+            <!-- In-progress platformer -->
+            <article class="project">
+            <div class="projectInner">
+                <div class="media">
+                <div class="mediaHint">
+                    <b>IN DEVELOPMENT</b><br>
+                </div>
+                </div>
+                <div class="content">
+                <h2>🎮 2D Platformer — Systems &amp; Mechanics (In Progress)</h2>
+                <p class="small">JavaScript • Custom engine layer</p>
+
+                <div class="meta">
+                    <span class="tag">Game systems</span>
+                    <span class="tag">Collision</span>
+                    <span class="tag">State machines</span>
+                    <span class="tag">Sympathy magic</span>
+                </div>
+
+                <p class="small">
+                    An in-progress platformer focused on systems: tile collision, custom hitboxes, entity architecture, and a Sympathy magic system based on energy transfer and tradeoffs.
+                </p>
+
+                <ul class="clean">
+                    <li>Tile-based collision + custom hitboxes</li>
+                    <li>Player states via state machine</li>
+                    <li>Mechanic design: linking objects with energy loss constraints</li>
+                </ul>
+
+                <!-- Add a link when it's public -->
+                <!-- <div class="btnrow"><a class="btn" href="#" target="_blank">Repo →</a></div> -->
+                </div>
+            </div>
+            </article>
+
+        </div>
+
+        <div class="footer">
+            <div><a href="{{ '/' | relative_url }}">← Back home</a></div>
+            <div>
+            <a href="mailto:averyberger@icloud.com">averyberger@icloud.com</a>
+            ·
+            <a href="https://github.com/AveryPBerger" target="_blank" rel="noreferrer">GitHub</a>
+            ·
+            <a href="https://www.linkedin.com/in/averyberger/" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+        </div>
+
+        </div>
+    </body>
+</html>
